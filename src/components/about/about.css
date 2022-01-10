@@ -36,3 +36,18 @@
   font-size: 150%;
   height: 30vw;
 }
+
+.quote-img-1 {
+  background-image: url('../../assets/quote-image-1.png');
+  height: 30vw;
+}
+
+.quote-img-2 {
+  background-image: url('../../assets/quote-image-2.png');
+  height: 30vw;
+}
+
+.quote-img-3 {
+  background-image: url('../../assets/quote-image-3.png');
+  height: 30vw;
+}
