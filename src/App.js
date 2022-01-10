@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import About from './components/about/about';
 import './components/navigation/navigation.jsx'
 import './components/footer/footer.jsx'
 import { navigation } from './components/navigation/navigation.jsx';
@@ -17,7 +18,9 @@ function App() {
               <li className="nav-li"><a href="#">Who I've Worked With</a></li>
           </ul>
         </header>
+        <About/>
       </div>
+    
     );
 }
 export default App;
