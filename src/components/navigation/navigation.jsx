@@ -10,7 +10,7 @@ const Navigation = () => {
             <nav className="nav">
                 <img className="logo" src={ logoanim }  alt="logo" />
                 <ul className="nav-ul">
-                    <li className="nav-li"><Link to="/home">Home</Link></li>
+                    <li className="nav-li"><Link to="">Home</Link></li>
                     <li className="nav-li"><Link to="/about">About Me</Link></li>
                     <li className="nav-li"><Link to="/work">Work</Link></li>
                     <li className="nav-li"><Link to="/worked-with">Who I've Worked With</Link></li>

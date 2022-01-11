@@ -8,29 +8,19 @@ import Home from "./components/home/home";
 import About from "./components/about/about";
 import Work from "./components/work/work";
 import Worked from "./components/worked/worked";
-import Nav from "./components/navigation/navigation";
+import Navigation from './components/navigation/navigation';
 
-const Routebrowser = () => {
-  return (
-    <BrowserRouter>
+ReactDOM.render(
+      <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Nav />} >
-            <Route index element={<Home />} />
+        <Route path="/" element={<Navigation />} >
+            <Route index path='' element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/work" element={<Work />} />
             <Route path="/worked-with" element={<Worked />} />
         </Route>
       </Routes>
-    </BrowserRouter>
-    
-  );
-}
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <Routebrowser />
-  </React.StrictMode>,
+    </BrowserRouter>,
   document.getElementById('root')
 );
 
