@@ -10,17 +10,19 @@ import Work from "./components/work/work";
 import Worked from "./components/worked/worked";
 import Navigation from './components/navigation/navigation';
 
+
+
 ReactDOM.render(
       <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Navigation />} >
-            <Route index path='' element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/worked-with" element={<Worked />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>,
+        <Routes>
+          <Route path="/" element={<Navigation />} >
+              <Route index path='' element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/work" element={<Work />} />
+              <Route path="/worked-with" element={<Worked />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>,
   document.getElementById('root')
 );
 

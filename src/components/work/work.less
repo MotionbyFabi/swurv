@@ -1,44 +1,10 @@
-  .header {
-    margin-top: 15vw;
-    text-align: center;
-    color: white;
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
 }
-  
-  .wrapper {
-      margin-top: 5vw;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #fff;
-    color: #444;
-    margin-right: 5%;
-    margin-left: 5%;
-    height: 30vw;
-  }
 
-  #left {
-    background-color: white;
-  }
-
-  #right {
-    background-repeat: no-repeat;
-  }
-
-  .quote {
-      margin-top: 15%;
-      height: 40%;
-      margin-left: 8vw;
-      margin-right: 8vw;
-      margin-bottom: 1vw;
-  }
-
-  .name {
-      margin-left: 8vw;
-      margin-right: 8vw;
-  }
-
-  .box {
-    background-color: #444;
-    padding: 20px;
-    font-size: 150%;
-    height: 30vw;
-  }
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

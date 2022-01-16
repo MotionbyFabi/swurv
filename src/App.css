@@ -8,3 +8,23 @@ body {
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+.slide-enter {
+  opacity: 0;
+  transition: 0.5s;
+}
+.slide-enter.slide-enter-active {
+  opacity: 1;
+  transition: 0.5s;
+}
+.slide-exit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  transition: 0.5s;
+}
+.slide-exit-active {
+  opacity: 0;
+  transition: 0.5s;
+}
