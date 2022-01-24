@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -9,19 +10,21 @@ import About from "./components/about/about";
 import Work from "./components/work/work";
 import Worked from "./components/worked/worked";
 import Navigation from './components/navigation/navigation';
-
+import { AnimatePresence } from "framer-motion";
 
 
 ReactDOM.render(
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Navigation />} >
-              <Route index path='' element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/work" element={<Work />} />
-              <Route path="/worked-with" element={<Worked />} />
-          </Route>
-        </Routes>
+        <AnimatePresence exitBeforeEnter=" true ">
+          <Routes>
+            <Route path="/" element={<Navigation />} >
+                <Route index path='' element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/work" element={<Work />} />
+                <Route path="/worked-with" element={<Worked />} />
+            </Route>
+          </Routes>
+        </AnimatePresence>
       </BrowserRouter>,
   document.getElementById('root')
 );

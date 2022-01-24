@@ -1,6 +1,7 @@
 .nav {
   background-color: black;
   text-align: center;
+  margin-left: -20px;
   height: 200px;
 }
 .nav .logo {
@@ -18,7 +19,6 @@
 .nav .nav-ul a .twitter {
   width: 17px;
   line-height: 23px;
-  margin-left: 20px;
 }
 .nav .nav-ul .nav-li {
   display: inline-block;
