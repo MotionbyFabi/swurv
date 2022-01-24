@@ -1,6 +1,6 @@
 import react from "react";
 import './work.css';
-import { motion, AnimatePresence  } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 
 const variants = {

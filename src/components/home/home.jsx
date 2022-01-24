@@ -1,6 +1,6 @@
 import react from "react";
 import './home.css';
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 
 const variants = {
     initial: { opacity: 0 },
