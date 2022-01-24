@@ -18,10 +18,10 @@ const Home = () => {
         transition="transition"
         layout
         variants={ variants }>
-            <AnimatePresence>
+            
                 <h1>SWURV</h1>
                 <p>Motion Designer</p>
-            </AnimatePresence>
+            
         </motion.div>
         
     );

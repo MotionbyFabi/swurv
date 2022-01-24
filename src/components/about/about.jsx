@@ -19,7 +19,6 @@ const About = () => {
         transition="transition"
         layout
         variants={ variants }>
-            <AnimatePresence>
                     <div class="header">
                         <h1>ABOUT SWURV </h1>
                         <p>I currently live in Toronto, Canada. I am a Visual Artist who specializes in Motion Design, 3D Animation as well as 
@@ -56,7 +55,6 @@ const About = () => {
 
                         
                         <br/><br/><br/><br/>
-            </AnimatePresence>
         </motion.div>
       
     );

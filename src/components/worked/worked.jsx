@@ -18,10 +18,9 @@ const Worked = () => {
         transition="transition"
         layout
         variants={ variants }>
-             <AnimatePresence>
 
             <h1 className="test">bye other tab</h1>
-             </AnimatePresence>
+             
         </motion.div>
       
     );
