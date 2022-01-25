@@ -1,25 +1,13 @@
 import react from "react";
 import './about.css';
-import { motion, AnimatePresence } from "framer-motion"
+import  AnimatedPage  from "./animation"
 
-
-const variants = {
-    initial: { opacity: 0 },
-    animate: { opacity: 1 },
-    exit: { opacity: 0 },
-    transition: { duration: 0.3, delay: 1 }
-  }
 
 
 const About = () => {
     return (
-        <motion.div initial="initial"
-        animate="animate"
-        exit="exit"
-        transition="transition"
-        layout
-        variants={ variants }>
-                    <div class="header">
+       <AnimatedPage>
+           <div class="header">
                         <h1>ABOUT SWURV </h1>
                         <p>I currently live in Toronto, Canada. I am a Visual Artist who specializes in Motion Design, 3D Animation as well as 
                         <br/>Post-Production. I am approaching 3 Years of experience in this field and I can tackle any project given to me!</p>
@@ -55,8 +43,7 @@ const About = () => {
 
                         
                         <br/><br/><br/><br/>
-        </motion.div>
-      
+       </AnimatedPage>
     );
   }
   
