@@ -7,3 +7,6 @@ iframe {
   padding-left: 20px;
   padding-right: 20px;
 }
+.wrapper {
+  overflow-x: hidden;
+}

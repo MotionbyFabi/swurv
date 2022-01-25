@@ -1,6 +1,6 @@
 import react from "react";
 import './navigation.css';
-import logoanim from './logoanim.gif'
+import logoanim from './logoanimsmall.gif'
 import twitter from './twitter.png'
 import { Outlet, Link } from "react-router-dom";
 
