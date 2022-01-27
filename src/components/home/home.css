@@ -1,14 +1,23 @@
 .header1 {
-  margin-top: 15vw;
+  margin: auto auto;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
   color: white;
+  height: 75vh;
+  width: 100%;
 }
 .header1 h1 {
   font-size: 70px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 0px;
+  margin: 75px;
 }
 .header1 p {
+  line-height: 0px;
   font-size: 20px;
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
