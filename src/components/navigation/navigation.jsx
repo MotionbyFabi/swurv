@@ -1,4 +1,5 @@
 import React, { Component }  from "react";
+import ReactDOM from 'react-dom'
 import './navigation.css';
 import logoanim from './logoanimsmall.gif'
 import twitter from './twitter.png'
