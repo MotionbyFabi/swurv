@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
-
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 const variants = {
     initial: { opacity: 0, y: 50},
