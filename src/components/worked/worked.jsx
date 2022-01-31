@@ -1,4 +1,4 @@
-import react from "react";
+
 import './worked.css';
 
 import  AnimatedPage  from "./animation";
